@@ -11,6 +11,7 @@ export const UserProfile = () => {
 				<div className="bg-[#3F84E5] lg:h-[200px] sm:h-[80px] md:h-[150px] flex items-center justify-center font-bold text-white lg:text-6xl md:text-4xl sm:text-1xl font-cursive">
 					<h1 className="name">Sign Up</h1>
 				</div>
+
 				<div className="lg:translate-y-[-50px] sm:translate-y-[-30px] md:translate-y-[-30px] flex md:justify-center sm:justify-start sm:pl-2">
 					<Profile className="lg:w-[150px] sm:w-[60px] md:w-[90px] rounded-full border-white border-[4px]" />
 				</div>

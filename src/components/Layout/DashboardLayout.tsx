@@ -11,7 +11,7 @@ export const DashboardLayout = ({ children }: { children: ReactNode }) => {
 			<section className="flex-1">
 				<Header />
 				<section className="fixed w-[100%] pl-6 bg-[rgba(13,27,42,0.9)] overflow-y-scroll top-[75px] bottom-0">
-					<div className="m-auto max-w-7xl">{children}</div>
+					<div className="m-auto max-w-7xl bg-red-600	">{children}</div>
 				</section>
 			</section>
 		</main>

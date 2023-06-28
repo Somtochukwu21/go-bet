@@ -11,7 +11,7 @@ export const BookBet = () => {
 				<TableRowsLoader rowsNum={5} />
 			) : (
 				matches.map((match) => (
-					<div className="p-4 border-b border-b-[#EEF0F2]" key={match.id}>
+					<form className="p-4 border-b border-b-[#EEF0F2]" key={match.id}>
 						<h3 className="font-bold mb-4">{match.club1} vs {match.club2}</h3>
 						<div className="flex flex-col">
 							<label htmlFor="your__pick" className="text-gray-500 text-xs font-bold">
@@ -48,7 +48,7 @@ export const BookBet = () => {
 							</div>
 						</div>
 						<Button className="bg-[#3F84E5] font-bold w-full">Place a Bet</Button>
-					</div>
+					</form>
 				))
 			)}
 		</div>
